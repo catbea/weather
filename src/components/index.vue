@@ -77,6 +77,7 @@ export default {
        },
        complete(val){
            console.log(val);
+           this.seriesData = []
            this.selectedCity = val[1].name;
            this.cancel();
            this.getCurrentCityData(this.selectedCity);
@@ -121,7 +122,7 @@ export default {
                     })
                     _self.initEchart();
                     _self.loader = false;
-                    console.log("2",err, data,_self.featureMapData);
+                    console.log("2",err, data,_self.seriesData);
                 });
             });
         },

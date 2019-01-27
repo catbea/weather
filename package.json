@@ -10,9 +10,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.2",
     "vant": "^1.5.1",
     "vue": "^2.5.2",
     "vue-city": "^2.0.0",
+    "vue-city-select": "^1.0.1",
     "vue-router": "^3.0.1",
     "vueify": "^9.4.1"
   },

@@ -4,8 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import { Area } from 'vant';
+import vueCity from 'vue-city-select'
+
 import 'vant/lib/index.css';
-Vue.use(Area);
+Vue.use(Area).use(vueCity);
 
 
 Vue.config.productionTip = false

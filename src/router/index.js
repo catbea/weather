@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import index from '@/components/index'
 // import city from '@/components/city.vue'
+import test from '@/components/test.vue'
 
 Vue.use(Router)
 
@@ -13,10 +14,10 @@ export default new Router({
       name: 'index',
       component: index
     },
-    // {
-    //   path: '/city',
-    //   name: 'city',
-    //   component: city
-    // }
+    {
+      path: '/test',
+      name: 'test',
+      component: test
+    }
   ]
 })
